@@ -333,7 +333,7 @@ export default function AuthPage() {
               {isLogin ? "Create a free account →" : "Sign in →"}
             </button>
           </p>
-
+<div></div>
           {!isLogin && (
             <p className="mt-2 text-center text-[11.5px] text-stone-400">
               By continuing you agree to our{" "}
