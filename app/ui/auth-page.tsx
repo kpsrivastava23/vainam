@@ -341,6 +341,7 @@ export default function AuthPage() {
               &{" "}
               <Link href="/privacy" className="hover:text-stone-600">Privacy Policy</Link>
             </p>
+            
           )}
         </div>
       </div>
