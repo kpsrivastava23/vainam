@@ -6,6 +6,9 @@ const SUMMARY_CARDS = [
   { label: "Tasks due", value: "2", detail: "Planned for today" },
 ];
 
+/**
+ * Renders the main dashboard page.
+ */
 export default function DashboardPage() {
   return (
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-6 py-10">
