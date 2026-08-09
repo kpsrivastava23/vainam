@@ -1,4 +1,4 @@
-const APPS = ["Gmail", "Zerodha", "Groww", "Notion", "Slack", "Google Calendar", "Drive", "Todoist"];
+const APPS: string[] = ["Gmail", "Zerodha", "Groww", "Notion", "Slack", "Google Calendar", "Drive", "Todoist"];
 
 export default function AppsPage() {
   return (
