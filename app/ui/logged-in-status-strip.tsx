@@ -33,7 +33,7 @@ export default function LoggedInStatusStrip() {
 
   return (
     <div className="flex items-center gap-2 pb-2 overflow-x-auto scrollbar-hide">
-      {STATUS_ITEMS.map((label) => (
+      {STATUS_ITEMS.map((label: string) => (
         <span
           key={label}
           className="inline-flex items-center gap-1.5 text-[11px] px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-500 whitespace-nowrap"
