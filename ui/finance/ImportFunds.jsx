@@ -1,3 +1,6 @@
+/**
+ * Renders a button component for triggering the import funds action.
+ */
 export default function ImportFunds() {
   return (
     <button
