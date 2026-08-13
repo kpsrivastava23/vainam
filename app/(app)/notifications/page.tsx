@@ -6,6 +6,9 @@ const NOTIFICATIONS = [
   "Slack mention from product channel",
 ];
 
+/**
+ * Renders the unified notifications page.
+ */
 export default function NotificationsPage() {
   return (
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-10">
