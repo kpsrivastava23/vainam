@@ -68,7 +68,7 @@ export default function RootLayout({
                     One calm place for your notifications, finances, apps, and everything in between.
                   </p>
                   <div className="flex flex-wrap gap-1.5">
-                    {["Gmail", "Finance", "Groww", "Zerodha"].map((t) => (
+                    {["Gmail", "Finance", "Groww", "Zerodha"].map((t: string) => (
                       <span
                         key={t}
                         className="text-[11px] px-2 py-0.5 rounded-full border border-stone-200 text-stone-400"
