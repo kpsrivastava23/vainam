@@ -1,6 +1,7 @@
 export default function ForgotPasswordPage() {
   return (
     <section className="mx-auto flex min-h-[60vh] w-full max-w-md flex-col justify-center px-6 py-16">
+      {/* Account section header */}
       <p className="text-[12px] uppercase tracking-[0.14em] text-stone-400">Account</p>
       <h1 className="mt-2 font-[family-name:var(--font-display)] text-[34px] leading-tight text-stone-950">
         Reset your password
