@@ -11,6 +11,9 @@ const STATUS_ITEMS = [
   "2 tasks due",
 ];
 
+/**
+ * Renders a horizontal strip of status badges for logged-in users.
+ */
 export default function LoggedInStatusStrip() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
