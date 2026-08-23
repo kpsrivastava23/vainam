@@ -86,7 +86,7 @@ export default function RootLayout({
                       <span className="text-[10.5px] uppercase tracking-[0.14em] text-stone-400 mb-1">
                         {section}
                       </span>
-                      {links.map((l) => (
+                      {links.map((l: string) => (
                         <a
                           key={l}
                           href="#"
