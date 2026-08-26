@@ -15,7 +15,7 @@ const STATUS_ITEMS = [
  * Renders a horizontal strip of status badges for logged-in users.
  */
 export default function LoggedInStatusStrip() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
   useEffect(() => {
     const syncAuthState = () => setIsLoggedIn(isVainamAuthenticated());
