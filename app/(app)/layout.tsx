@@ -10,6 +10,10 @@ const NAV_LINKS = [
   { label: "Calendar", href: "/calendar" },
 ];
 
+/**
+ * Layout wrapper for the authenticated application section, providing
+ * a sticky navigation header and status strip.
+ */
 export default function AppLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
