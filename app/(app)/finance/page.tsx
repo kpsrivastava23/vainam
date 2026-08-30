@@ -20,7 +20,7 @@ export default function FinancePage() {
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
-        {["₹2.4L portfolio", "8 active funds", "3 connected accounts"].map((item) => (
+        {["₹2.4L portfolio", "8 active funds", "3 connected accounts"].map((item: string) => (
           <div key={item} className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm">
             <p className="text-[18px] font-medium text-stone-950">{item}</p>
             <p className="mt-2 text-[13px] leading-6 text-stone-500">Live finance data will appear here after integrations are connected.</p>
