@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 const AUTH_STORAGE_KEY = "vainam-authenticated";
 const PROTECTED_ROUTES = ["/dashboard", "/finance", "/notifications", "/apps", "/calendar"];
 
+/** Sets the authentication state in local storage and dispatches a change event. */
 export function setVainamAuthenticated() {
   window.localStorage.setItem(AUTH_STORAGE_KEY, "true");
   window.dispatchEvent(new Event("vainam-auth-changed"));
