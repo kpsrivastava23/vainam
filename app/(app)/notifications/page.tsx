@@ -1,4 +1,4 @@
-const NOTIFICATIONS = [
+const NOTIFICATIONS: string[] = [
   "Groww SIP reminder is due today",
   "Gmail has 3 priority messages",
   "Calendar event starts in 45 minutes",
