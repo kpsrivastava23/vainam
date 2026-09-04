@@ -104,7 +104,7 @@ export default function RootLayout({
               <div className="mt-10 pt-6 border-t border-stone-100 flex flex-col md:flex-row items-center justify-between gap-2 text-[11.5px] text-stone-400">
                 <span>© {new Date().getFullYear()} Vainam. All rights reserved.</span>
                 <div className="flex gap-4">
-                  {["Terms", "Privacy", "Security"].map((l) => (
+                  {["Terms", "Privacy", "Security"].map((l: string) => (
                     <a key={l} href="#" className="hover:text-stone-600 transition-colors duration-150">
                       {l}
                     </a>
