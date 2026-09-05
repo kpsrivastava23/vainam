@@ -12,7 +12,8 @@ export function setVainamAuthenticated() {
   window.dispatchEvent(new Event("vainam-auth-changed"));
 }
 
-export function isVainamAuthenticated() {
+/** Checks whether the user is authenticated based on local storage. */
+export function isVainamAuthenticated(): boolean {
   return window.localStorage.getItem(AUTH_STORAGE_KEY) === "true";
 }
 
