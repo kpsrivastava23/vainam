@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Vainam — your unified personal universe. Notifications, mutual funds, connected apps, calendar, and tasks in one calm dashboard.",
 };
 
-const FOOTER_LINKS = {
+const FOOTER_LINKS: Record<string, string[]> = {
   Platform: ["Dashboard", "Finance & MF", "Notifications", "Connected Apps", "Calendar & Tasks"],
   Company: ["About", "Security", "Privacy", "Contact"],
   Integrations: ["Gmail", "Zerodha", "Groww", "Notion", "Slack", "+ 40 more"],
