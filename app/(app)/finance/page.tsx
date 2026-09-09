@@ -1,5 +1,8 @@
 import ImportFunds from "../../../ui/finance/ImportFunds";
 
+/**
+ * Finance page component for tracking portfolio and mutual funds.
+ */
 export default function FinancePage() {
   return (
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-10">
