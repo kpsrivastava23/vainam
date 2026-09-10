@@ -1,5 +1,8 @@
 const APPS: string[] = ["Gmail", "Zerodha", "Groww", "Notion", "Slack", "Google Calendar", "Drive", "Todoist"];
 
+/**
+ * Renders the connected apps management dashboard page.
+ */
 export default function AppsPage() {
   return (
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-10">
