@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LoggedInStatusStrip from "../ui/logged-in-status-strip";
 
-const NAV_LINKS = [
+const NAV_LINKS: readonly { label: string; href: string }[] = [
   { label: "Dashboard", href: "/dashboard" },
   { label: "Finance", href: "/finance" },
   { label: "Notifications", href: "/notifications" },
