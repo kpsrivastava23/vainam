@@ -17,7 +17,7 @@ export default function AppsPage() {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        {APPS.map((app) => (
+        {APPS.map((app: string) => (
           <article key={app} className="rounded-lg border border-stone-200 bg-white p-4 shadow-sm">
             <p className="text-[15px] font-medium text-stone-950">{app}</p>
             <p className="mt-1 text-[12px] text-stone-500">Connected</p>
