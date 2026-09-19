@@ -81,7 +81,7 @@ export default function RootLayout({
 
                 {/* Link columns */}
                 <div className="flex gap-10 lg:gap-16 text-[13px] flex-wrap">
-                  {Object.entries(FOOTER_LINKS).map(([section, links]) => (
+                  {Object.entries(FOOTER_LINKS).map(([section, links]: [string, string[]]) => (
                     <div key={section} className="flex flex-col gap-2.5">
                       <span className="text-[10.5px] uppercase tracking-[0.14em] text-stone-400 mb-1">
                         {section}
