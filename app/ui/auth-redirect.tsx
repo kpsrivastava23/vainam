@@ -17,6 +17,7 @@ export function isVainamAuthenticated(): boolean {
   return window.localStorage.getItem(AUTH_STORAGE_KEY) === "true";
 }
 
+/** Handles authentication-based route redirection for protected pages and root. */
 export default function AuthRedirect() {
   const pathname = usePathname();
   const router = useRouter();
