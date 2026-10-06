@@ -9,7 +9,7 @@ const NOTIFICATIONS: string[] = [
 /**
  * Renders the unified notifications page.
  */
-export default function NotificationsPage() {
+export default function NotificationsPage(): React.JSX.Element {
   return (
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-10">
       <div>
