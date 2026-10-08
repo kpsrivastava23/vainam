@@ -23,6 +23,7 @@ export default function FinancePage() {
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
+        {/* Summary metric cards representing portfolio overview */}
         {["₹2.4L portfolio", "8 active funds", "3 connected accounts"].map((item: string) => (
           <div key={item} className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm">
             <p className="text-[18px] font-medium text-stone-950">{item}</p>
