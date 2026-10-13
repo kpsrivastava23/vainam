@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { isVainamAuthenticated } from "./auth-redirect";
 
-const STATUS_ITEMS = [
+const STATUS_ITEMS: string[] = [
   "₹2.4L portfolio",
   "5 notifications",
   "12 apps connected",
