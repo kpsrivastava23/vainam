@@ -1,4 +1,4 @@
-export default function TermsPage() {
+export default function TermsPage(): React.JSX.Element {
   return (
     <section className="mx-auto flex min-h-[60vh] w-full max-w-3xl flex-col justify-center px-6 py-16">
       <p className="text-[12px] uppercase tracking-[0.14em] text-stone-400">Terms</p>
