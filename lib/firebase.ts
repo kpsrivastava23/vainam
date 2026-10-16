@@ -23,4 +23,5 @@ const app = initializeApp(firebaseConfig);
 /** Firebase Auth instance */
 export const auth = getAuth(app);
 
+/** Google Auth Provider instance */
 export const googleProvider = new GoogleAuthProvider();
