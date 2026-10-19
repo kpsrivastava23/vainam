@@ -38,6 +38,7 @@ export default function DashboardPage() {
             Priority feed
           </h2>
           <div className="mt-5 flex flex-col gap-3">
+            {/* Priority feed items */}
             {["Review portfolio movement", "Clear app notifications", "Prepare for today's events"].map((item) => (
               <div key={item} className="flex items-center justify-between rounded-lg bg-stone-50 px-4 py-3">
                 <span className="text-[13px] text-stone-700">{item}</span>
