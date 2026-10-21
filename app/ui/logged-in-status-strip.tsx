@@ -18,7 +18,7 @@ export default function LoggedInStatusStrip() {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
   useEffect(() => {
-    const syncAuthState = () => setIsLoggedIn(isVainamAuthenticated());
+    const syncAuthState = (): void => setIsLoggedIn(isVainamAuthenticated());
 
     syncAuthState();
     window.addEventListener("storage", syncAuthState);
