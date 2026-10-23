@@ -23,7 +23,7 @@ export default function NotificationsPage(): React.JSX.Element {
       </div>
 
       <div className="rounded-lg border border-stone-200 bg-white p-3 shadow-sm">
-        {NOTIFICATIONS.map((item) => (
+        {NOTIFICATIONS.map((item: string) => (
           <div key={item} className="flex items-center justify-between border-b border-stone-100 px-3 py-4 last:border-b-0">
             <span className="text-[13px] text-stone-700">{item}</span>
             <span className="text-[11px] text-stone-400">New</span>
