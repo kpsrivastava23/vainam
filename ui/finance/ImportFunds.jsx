@@ -17,6 +17,7 @@ export default function ImportFunds() {
         strokeLinecap="round"
         strokeLinejoin="round"
       >
+        {/* Arrow pointing up indicating import action */}
         <path d="M12 15V4" />
         <path d="m7 9 5-5 5 5" />
         <path d="M5 20h14" />
