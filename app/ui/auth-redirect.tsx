@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 const AUTH_STORAGE_KEY = "vainam-authenticated";
-const PROTECTED_ROUTES = ["/dashboard", "/finance", "/notifications", "/apps", "/calendar"];
+const PROTECTED_ROUTES: string[] = ["/dashboard", "/finance", "/notifications", "/apps", "/calendar"];
 
 /** Sets the authentication state in local storage and dispatches a change event. */
 export function setVainamAuthenticated() {
